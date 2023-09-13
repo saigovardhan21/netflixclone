@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix Clone</title>
+    <style>
+        /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Movies Section Styles */
+.movies {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./580b57fcd9996e24bc43c529.png" alt="Netflix Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://www.netflix.com/in/">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <h1>Watch Unlimited Movies & TV Shows</h1>
+            <p>Stream on any device. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <section class="movies">
+        <!-- Movie cards go here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
